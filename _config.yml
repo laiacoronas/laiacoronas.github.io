@@ -10,7 +10,7 @@ author: Laia Coronas Sala
 
 navbar-links:
   About Me: "aboutme"
-  Example Page: "example"
+ # Example Page: "example"
 
 ################
 # --- Logo --- #

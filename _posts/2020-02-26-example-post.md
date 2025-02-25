@@ -2,9 +2,9 @@
 layout: post
 title: Efficient Protein Ground State Energy Computation via Fragmentation and Reassembly
 subtitle: Our latest publication is out!
-gh-repo: [daattali/beautiful-jekyll](https://github.com/laiacoronas/protein_fragmentation)
+gh-repo: laiacoronas/protein_fragmentation
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [protein, energy, fragmentation]
 comments: true
 mathjax: true
 author: Laia Coronas Sala

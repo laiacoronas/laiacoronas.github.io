@@ -1,95 +1,26 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
+title: Efficient Protein Ground State Energy Computation via Fragmentation and Reassembly
+subtitle: Our latest publication is out!
+gh-repo: [daattali/beautiful-jekyll](https://github.com/laiacoronas/protein_fragmentation)
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 mathjax: true
-author: Bill Smith
+author: Laia Coronas Sala
 ---
 
-{: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
+### Abstract
+Protein characterization is one of the key components for understanding the human body and advancing drug discovery processes. While the future of quantum hardware holds the potential to accurately characterize these molecules, current efforts focus on developing strategies to fragment large molecules into computationally manageable subsystems. In this work, we propose a novel strategy to enable quantum simulation using existing quantum algorithms. Our approach involves fragmenting proteins into their corresponding amino acids, simulating them independently, and then reassembling them post-simulation while applying chemical corrections. This methodology demonstrates its accuracy by calculating the ground state of seven small peptides through reassembling, achieving a relative error of only  0.00263 ± 0.01724%. Future directions include investigating, with larger quantum computers, whether this approach remains valid for larger proteins.
 
-**Here is some bold text**
-
-## Here is a secondary heading
-
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
-
-Here's a table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-
-How about a yummy crepe?
-
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
-
-It can also be centered!
-
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+### Citation
+```python
+Laia Coronas Sala, & Parfait Atchade-Adelmeou. (2025). Efficient Protein Ground State Energy Computation via Fragmentation and Reassembly. arXiv. https://doi.org/10.48550/arXiv.2501.03766
 ```
 
-And here is the same code yet again but with line numbers:
+In our paper we follow theis pipeline to compute ground state properties of large and computationally challenging molecules:
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+![image](https://github.com/user-attachments/assets/eb96320e-5bf2-4997-bfae-d90a5a43c2ba)
 
-## Boxes
-You can add notification, warning and error boxes like this:
 
-### Notification
 
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
-
-## Local URLs in project sites {#local-urls}
-
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
-
-![Crepe](/assets/img/crepe.jpg)
-
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
-
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})

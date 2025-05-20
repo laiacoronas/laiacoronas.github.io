@@ -7,7 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [protein, energy, fragmentation]
 comments: true
 mathjax: true
-author: Laia Coronas Sala
+author: Laia Coronas Sala and Parfait Atchade-Adelomou
 ---
 
 ### Abstract

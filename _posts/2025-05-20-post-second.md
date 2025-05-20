@@ -1,13 +1,13 @@
 ---
-layout: "post"
-title: "QMProt: A Comprehensive Dataset of Quantum Properties for Proteins"
+layout: post
+title: QMProt\: A Comprehensive Dataset of Quantum Properties for Proteins
 subtitle: "Our latest publication is out!"
-gh-repo: "laiacoronas"
+gh-repo: 
 gh-badge: [star, fork, follow]
 tags: [protein, energy, fragmentation]
 comments: true
 mathjax: true
-author: "Laia Coronas Sala and Parfati Atchade-Adelomou"
+author: Laia Coronas Sala and Parfati Atchade-Adelomou
 ---
 
 ### Abstract

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: QMProt\: A Comprehensive Dataset of Quantum Properties for Proteins
+title: QMProt$:$ A Comprehensive Dataset of Quantum Properties for Proteins
 subtitle: "Our latest publication is out!"
 gh-repo: 
 gh-badge: [star, fork, follow]

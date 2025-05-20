@@ -2,7 +2,7 @@
 layout: post
 title: QMProt: A Comprehensive Dataset of Quantum Properties for Proteins
 subtitle: Our latest publication is out!
-gh-repo: laiacoronas/protein_fragmentation
+gh-repo: laiacoronas/
 gh-badge: [star, fork, follow]
 tags: [protein, energy, fragmentation]
 comments: true
